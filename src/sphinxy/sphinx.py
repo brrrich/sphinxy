@@ -47,7 +47,7 @@ class Sphinx:
         self._riddle = riddle
         return "I have updated my riddle. Are you ready to solve it?"
 
-    def pose_riddle(self, include_hint: bool = False) -> tuple[str, str.union[None]]:
+    def pose_riddle(self, include_hint: bool = False) -> tuple[str, str]:
         """ Poses riddle. 
 
         Args:
